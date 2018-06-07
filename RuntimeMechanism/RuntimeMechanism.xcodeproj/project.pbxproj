@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B72643E720C91C0F00C2C71C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B72643E620C91C0F00C2C71C /* main.m */; };
+		B72643EF20C91C8400C2C71C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B72643EE20C91C8400C2C71C /* Person.m */; };
+		B72643F220C95D5A00C2C71C /* Kids.m in Sources */ = {isa = PBXBuildFile; fileRef = B72643F120C95D5A00C2C71C /* Kids.m */; };
+		B72643F820C9615C00C2C71C /* Guys.m in Sources */ = {isa = PBXBuildFile; fileRef = B72643F720C9615C00C2C71C /* Guys.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		B72643E320C91C0F00C2C71C /* RuntimeMechanism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RuntimeMechanism; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72643E620C91C0F00C2C71C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B72643ED20C91C8400C2C71C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B72643EE20C91C8400C2C71C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B72643F020C95D5A00C2C71C /* Kids.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kids.h; sourceTree = "<group>"; };
+		B72643F120C95D5A00C2C71C /* Kids.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kids.m; sourceTree = "<group>"; };
+		B72643F620C9615C00C2C71C /* Guys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Guys.h; sourceTree = "<group>"; };
+		B72643F720C9615C00C2C71C /* Guys.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Guys.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				B72643E620C91C0F00C2C71C /* main.m */,
+				B72643ED20C91C8400C2C71C /* Person.h */,
+				B72643EE20C91C8400C2C71C /* Person.m */,
+				B72643F020C95D5A00C2C71C /* Kids.h */,
+				B72643F120C95D5A00C2C71C /* Kids.m */,
+				B72643F620C9615C00C2C71C /* Guys.h */,
+				B72643F720C9615C00C2C71C /* Guys.m */,
 			);
 			path = RuntimeMechanism;
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72643F820C9615C00C2C71C /* Guys.m in Sources */,
+				B72643F220C95D5A00C2C71C /* Kids.m in Sources */,
+				B72643EF20C91C8400C2C71C /* Person.m in Sources */,
 				B72643E720C91C0F00C2C71C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
