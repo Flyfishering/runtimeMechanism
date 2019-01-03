@@ -9,7 +9,10 @@
 #import "RuntimeDemo02Manager.h"
 #import <objc/runtime.h>
 #import "MyClass.h"
+#import "PropertyAttribute.h"
 @implementation RuntimeDemo02Manager
+
+
 
 + (void)testMethod1{
     MyClass *myClass = [[MyClass alloc] init];
@@ -47,6 +50,7 @@
     for (int i = 0; i < outCount; i++) {
         objc_property_t property = properties[i];
         NSLog(@"property's name: %s", property_getName(property));
+        NSLog(@"property_getAttributes: %s",property_getAttributes(property));
     }
     free(properties);
     objc_property_t array = class_getProperty(cls, "array");
@@ -103,6 +107,19 @@
     id instance = [[cls alloc] init];
     [instance performSelector:@selector(submethod1)];
     [instance performSelector:@selector(method1)];
+    
+    unsigned int outCount = 0;
+    objc_property_t * properties = class_copyPropertyList(cls, &outCount);
+    for (int i = 0; i < outCount; i++) {
+        objc_property_t property = properties[i];
+        NSLog(@"property's name: %s", property_getName(property));
+        NSLog(@"property_getAttributes: %s",property_getAttributes(property));
+    }
+    free(properties);
+    objc_property_t array = class_getProperty(cls, "property2");
+    if (array != NULL) {
+        NSLog(@"property %s", property_getName(array));
+    }
 }
 
 void imp_submethod1(id self, SEL _cmd)
@@ -115,5 +132,15 @@ void imp_submethod2(id self, SEL _cmd)
 {
     // implementation ....
     NSLog(@"imp_subMethod2 work");
+}
+
++ (void)testMethod3{
+    Class cls = PropertyAttribute.class;
+    unsigned int outCount = 0;
+    objc_property_t * properties = class_copyPropertyList(cls, &outCount);
+    for (int i = 0; i < outCount; i++) {
+        objc_property_t property = properties[i];
+        NSLog(@"property's name: %s   property_getAttributes: %s", property_getName(property),property_getAttributes(property));
+    }
 }
 @end

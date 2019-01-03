@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface RuntimeDemo02Manager : NSObject
 + (void)testMethod1;
 + (void)testMethod2;
++ (void)testMethod3;
 @end
 
 NS_ASSUME_NONNULL_END

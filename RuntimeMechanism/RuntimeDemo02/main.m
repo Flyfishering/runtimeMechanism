@@ -13,6 +13,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
 //        [RuntimeDemo02Manager testMethod1];
         [RuntimeDemo02Manager testMethod2];
+//        [RuntimeDemo02Manager testMethod3];
         
     }
     return 0;

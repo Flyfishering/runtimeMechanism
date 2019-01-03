@@ -22,6 +22,7 @@
 		B7F54C1020CD472C0020AB86 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F54C0F20CD472C0020AB86 /* Movie.m */; };
 		B7F54C1320CD47BA0020AB86 /* RuntimeManager01.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F54C1220CD47BA0020AB86 /* RuntimeManager01.m */; };
 		B7F54C1620CD576A0020AB86 /* Movie+item.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F54C1520CD576A0020AB86 /* Movie+item.m */; };
+		C382955D21DDB30700E4ECA8 /* PropertyAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C382955C21DDB30700E4ECA8 /* PropertyAttribute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +86,8 @@
 		B7F54C1220CD47BA0020AB86 /* RuntimeManager01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeManager01.m; sourceTree = "<group>"; };
 		B7F54C1420CD576A0020AB86 /* Movie+item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Movie+item.h"; sourceTree = "<group>"; };
 		B7F54C1520CD576A0020AB86 /* Movie+item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Movie+item.m"; sourceTree = "<group>"; };
+		C382955B21DDB30700E4ECA8 /* PropertyAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyAttribute.h; sourceTree = "<group>"; };
+		C382955C21DDB30700E4ECA8 /* PropertyAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyAttribute.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				4004D76321DCFEDF00904BEE /* MyClass.m */,
 				40711E4521DD06CA0011493E /* RuntimeDemo02Manager.h */,
 				40711E4621DD06CA0011493E /* RuntimeDemo02Manager.m */,
+				C382955B21DDB30700E4ECA8 /* PropertyAttribute.h */,
+				C382955C21DDB30700E4ECA8 /* PropertyAttribute.m */,
 			);
 			path = RuntimeDemo02;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				4004D76421DCFEDF00904BEE /* MyClass.m in Sources */,
 				4004D75E21DCFD3200904BEE /* main.m in Sources */,
 				40711E4721DD06CA0011493E /* RuntimeDemo02Manager.m in Sources */,
+				C382955D21DDB30700E4ECA8 /* PropertyAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
