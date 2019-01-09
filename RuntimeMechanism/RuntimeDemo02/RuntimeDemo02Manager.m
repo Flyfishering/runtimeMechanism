@@ -13,7 +13,7 @@
 @implementation RuntimeDemo02Manager
 
 
-
+/// 类和对象 runtime 基本操作
 + (void)testMethod1{
     MyClass *myClass = [[MyClass alloc] init];
     unsigned int outCount = 0;
@@ -88,6 +88,7 @@
     NSLog(@"==========================================================");
 }
 
+/// 动态创建类，添加方法，添加实例等
 + (void)testMethod2{
     // 动态创建类 
     Class cls = objc_allocateClassPair(MyClass.class, "MySubClass", 0);
@@ -104,6 +105,8 @@
     objc_property_attribute_t attrs[] = {type, ownership, backingivar};
     class_addProperty(cls, "property2", attrs, 3);
     objc_registerClassPair(cls);
+    
+    
     id instance = [[cls alloc] init];
     [instance performSelector:@selector(submethod1)];
     [instance performSelector:@selector(method1)];
@@ -133,7 +136,7 @@ void imp_submethod2(id self, SEL _cmd)
     // implementation ....
     NSLog(@"imp_subMethod2 work");
 }
-
+/// 类型编码
 + (void)testMethod3{
     Class cls = PropertyAttribute.class;
     unsigned int outCount = 0;
@@ -143,4 +146,6 @@ void imp_submethod2(id self, SEL _cmd)
         NSLog(@"property's name: %s   property_getAttributes: %s", property_getName(property),property_getAttributes(property));
     }
 }
+
+
 @end

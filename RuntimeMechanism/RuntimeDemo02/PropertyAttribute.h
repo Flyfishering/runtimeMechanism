@@ -22,6 +22,10 @@ struct YorkshireTeaStruct { int pot; char lady; };
 typedef struct YorkshireTeaStruct YorkshireTeaStructType;
 union MoneyUnion { float alone; double down; };
 
+
+/**
+ 类型编码
+ */
 @interface PropertyAttribute : NSObject
 @property char charDefault;
 @property double doubleDefault;

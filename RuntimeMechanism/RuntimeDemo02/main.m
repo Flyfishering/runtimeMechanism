@@ -9,12 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "RuntimeDemo02Manager.h"
 //#import "MySubClass.h"
+#import "RuntimneArcDemo.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
 //        [RuntimeDemo02Manager testMethod1];
-        [RuntimeDemo02Manager testMethod2];
+//        [RuntimeDemo02Manager testMethod2];
 //        [RuntimeDemo02Manager testMethod3];
-        
+        // 获取所有注册类
+        [RuntimneArcDemo testMethod];
     }
     return 0;
 }
