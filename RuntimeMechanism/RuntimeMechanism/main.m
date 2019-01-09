@@ -15,9 +15,11 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         NSLog(@"Hello, World!");
         Person *person = [[Person alloc] init];
-        [person logName:@"王斌斌"];
+//        [person logName:@"王斌斌"];
 //        [person playGame:@"英雄联盟"];
 //        [person eatingFood:@"臊子面"];
+        //doesNotRecognizeSelector
+        [person xxxxxxxx];
     }
     return 0;
 }

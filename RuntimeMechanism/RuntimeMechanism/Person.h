@@ -15,4 +15,6 @@
 - (void)playGame:(NSString *)game;
 // 吃东西
 - (void)eatingFood:(NSString *)food;
+// 不能识别的方法
+- (void)xxxxxxxx;
 @end
