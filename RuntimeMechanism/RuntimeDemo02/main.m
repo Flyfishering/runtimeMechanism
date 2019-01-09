@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "RuntimeDemo02Manager.h"
+#import "AllClassDemo.h"
 //#import "MySubClass.h"
 #import "RuntimneArcDemo.h"
 int main(int argc, const char * argv[]) {
@@ -17,6 +18,7 @@ int main(int argc, const char * argv[]) {
 //        [RuntimeDemo02Manager testMethod3];
         // 获取所有注册类
         [RuntimneArcDemo testMethod];
+        [AllClassDemo testMethod1];
     }
     return 0;
 }

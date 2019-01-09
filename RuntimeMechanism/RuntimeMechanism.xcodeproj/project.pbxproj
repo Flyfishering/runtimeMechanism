@@ -10,6 +10,7 @@
 		4004D75E21DCFD3200904BEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4004D75D21DCFD3200904BEE /* main.m */; };
 		4004D76421DCFEDF00904BEE /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4004D76321DCFEDF00904BEE /* MyClass.m */; };
 		40711E4721DD06CA0011493E /* RuntimeDemo02Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40711E4621DD06CA0011493E /* RuntimeDemo02Manager.m */; };
+		40711E4A21DE47D00011493E /* AllClassDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 40711E4921DE47D00011493E /* AllClassDemo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B72643E720C91C0F00C2C71C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B72643E620C91C0F00C2C71C /* main.m */; };
 		B72643EF20C91C8400C2C71C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B72643EE20C91C8400C2C71C /* Person.m */; };
 		B72643F220C95D5A00C2C71C /* Kids.m in Sources */ = {isa = PBXBuildFile; fileRef = B72643F120C95D5A00C2C71C /* Kids.m */; };
@@ -63,6 +64,8 @@
 		4004D76321DCFEDF00904BEE /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		40711E4521DD06CA0011493E /* RuntimeDemo02Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeDemo02Manager.h; sourceTree = "<group>"; };
 		40711E4621DD06CA0011493E /* RuntimeDemo02Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeDemo02Manager.m; sourceTree = "<group>"; };
+		40711E4821DE47D00011493E /* AllClassDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllClassDemo.h; sourceTree = "<group>"; };
+		40711E4921DE47D00011493E /* AllClassDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllClassDemo.m; sourceTree = "<group>"; };
 		B72643E320C91C0F00C2C71C /* RuntimeMechanism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RuntimeMechanism; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72643E620C91C0F00C2C71C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B72643ED20C91C8400C2C71C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 				4004D76321DCFEDF00904BEE /* MyClass.m */,
 				40711E4521DD06CA0011493E /* RuntimeDemo02Manager.h */,
 				40711E4621DD06CA0011493E /* RuntimeDemo02Manager.m */,
+				40711E4821DE47D00011493E /* AllClassDemo.h */,
+				40711E4921DE47D00011493E /* AllClassDemo.m */,
 				C382955B21DDB30700E4ECA8 /* PropertyAttribute.h */,
 				C382955C21DDB30700E4ECA8 /* PropertyAttribute.m */,
 				C3F2FED121E5DAD000E57EA7 /* RuntimneArcDemo.h */,
@@ -288,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40711E4A21DE47D00011493E /* AllClassDemo.m in Sources */,
 				4004D76421DCFEDF00904BEE /* MyClass.m in Sources */,
 				4004D75E21DCFD3200904BEE /* main.m in Sources */,
 				40711E4721DD06CA0011493E /* RuntimeDemo02Manager.m in Sources */,
