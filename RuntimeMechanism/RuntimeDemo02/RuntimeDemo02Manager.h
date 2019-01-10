@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)testMethod2;
 /// 类型编码
 + (void)testMethod3;
-
++ (void)testMethod4;
 @end
 
 NS_ASSUME_NONNULL_END

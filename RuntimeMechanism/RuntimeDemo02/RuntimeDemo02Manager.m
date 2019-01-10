@@ -146,6 +146,18 @@ void imp_submethod2(id self, SEL _cmd)
         NSLog(@"property's name: %s   property_getAttributes: %s", property_getName(property),property_getAttributes(property));
     }
 }
-
+/// runtime 关于 库的用法
++ (void)testMethod4
+{
+    NSLog(@"获取指定类所在动态库");
+    
+    NSLog(@"NSString‘s Framework: %s", class_getImageName(NSClassFromString(@"NSString")));
+    NSLog(@"获取指定库或框架中所有类的类名");
+    unsigned outCount = 0;
+    const char ** classes = objc_copyClassNamesForImage(class_getImageName(NSClassFromString(@"NSString")), &outCount);
+    for (int i = 0; i < outCount; i++) {
+        NSLog(@"class name: %s", classes[i]);
+    }
+}
 
 @end

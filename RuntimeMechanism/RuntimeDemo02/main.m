@@ -16,9 +16,10 @@ int main(int argc, const char * argv[]) {
 //        [RuntimeDemo02Manager testMethod1];
 //        [RuntimeDemo02Manager testMethod2];
 //        [RuntimeDemo02Manager testMethod3];
+        [RuntimeDemo02Manager testMethod4];
         // 获取所有注册类
-        [RuntimneArcDemo testMethod];
-        [AllClassDemo testMethod1];
+//        [RuntimneArcDemo testMethod];
+//        [AllClassDemo testMethod1];
     }
     return 0;
 }
